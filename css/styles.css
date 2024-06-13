@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif; */
+/* estilos de colores , #D2B295, #D8F6C0*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+color: black;
+}
+
+/* header*/
+header {
+background-color:beige;
+color: rgb(8, 10, 8);
+padding: 1.25rem;
+text-align: center;
+font-family: "Raleway";
+font-size: 1.25rem;
+background-image:url(../assets/uma5.jpg);
+background-size: cover}
+
+header img {
+width: 15.625rem;
+}
+
+header h1 {
+font-family: 'handlee';
+font-size: 2.5rem;
+margin: .3125rem 0;
+font-weight: 400;
+}
+
+header p {
+font-family: "handlee";
+font-size:1.5625rem ;
+}
+
+/* Navegación */
+.Navbar {
+background-color:beige;
+text-align: center;
+padding: .9375rem;
+}
+
+.Navbar a {
+color:black;
+text-decoration: none;
+padding: .625rem 1.25rem;
+font-family: "handlee";
+font-weight: bold;
+font-size: 1.875rem;
+}
+
+.Navbar a:hover {
+background-color:lightgreen;
+}
+
+/* Main */
+main {
+padding: 20px;
+text-align: center;
+font-weight: bold;
+font-size: 1.25rem;
+}
+
+.info {
+display: flex;
+justify-content: space-around;
+margin-bottom: 1.25rem;
+}
+
+.info article {
+flex: 1;
+background-color: #ddd;
+padding: .625rem;
+border-radius: .3125rem;
+}
+
+.principal {
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 1.25rem;
+}
+
+.principal aside {
+flex: 1;
+text-align: center;
+}
+
+.principal aside img {
+width:12.5rem;
+margin-bottom: .625rem;
+}
+
+.principal aside p {
+font-family: "handlee";
+font-size: 1.25rem;
+font-weight: bold;}
+
+
+.holistica {
+flex: 2;
+text-align: left;
+}
+
+.holistica h2 {font-family: "raleway";
+font-size: 3.125rem;
+}
+
+.holistica ul li{font-size: 1.5625rem;
+font-weight: 500;}
+
+
+.holistica a {
+display: inline-block;
+padding: .625rem 1.25rem;
+background-color: #4CAF50;
+color: white;
+text-decoration: none;
+border-radius: .3125rem;
+}
+
+.holistica a:hover {
+background-color: #45a049;
+}
+
+.tarot img{
+text-align: center;
+margin-bottom: 1.25rem;
+width: 80%;
+}
+
+/* Footer */
+footer {
+background-color:beige;
+color: rgb(14, 13, 13);
+padding: .375rem .9375rem;
+text-align: left;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 40% 60%;
+gap:.625rem;
+height: 25.9375rem;
+}
+
+.logo {
+width: 25rem;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;    
+}
+.logo img{
+width: 18.75rem;
+}
+.footer1{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+display: flex;    
+color:black;
+text-decoration: none;
+margin-bottom: .3125rem;
+font-size:.75rem;
+font-family: "handlee";
+font-weight: bold;}
+
+.footer1 ul {
+display: flex;
+flex-direction: column;
+gap: 1.25rem;
+padding-left: 1.875rem;
+}
+.footer1 ul li a{
+font-family: "Handlee", cursive;
+font-size:.9375rem;
+font-weight: 600;
+line-height: 2.0025rem;
+text-align: left;
+text-decoration: none;
+}
+
+.footer1 ul{
+list-style: none;
+}    
+
+.domi{
+grid-column-start: 2; grid-column-end: 3;
+grid-row-start:1 ; grid-row-end: 3;
+} 
+
+.domi h2{
+margin-bottom: .375rem;
+font-family: "Raleway", sans-serif;
+font-size: 1.25rem;
+font-weight: bold;
+line-height: 1.4675rem;
+text-align: left;
+}
+
+.domi p {
+margin: 0 0 2.5rem 0;
+font-size: .9375rem ;
+font-family: "Handlee";
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 2.0025rem;
+text-align: left;}
+
+.redes{
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1; grid-row-end: 2;
+}
+
+.redes h2{
+font-family: "Raleway" ;
+font-size: 1.25rem;
+font-weight: bold   ;
+line-height: 1.4675rem;
+text-align: left;
+margin-bottom: 1.875rem;
+}
+
+.redes img {
+gap: .625rem;
+margin-bottom: 1.25rem;
+width: 3.125rem;
+}
+
+.ubi{
+grid-column-start: 3; grid-column-end: 4;
+grid-row-start: 2; grid-row-end: 3;
+display: flex;
+gap: 1.25rem
+}
+
+.ubi h2{ 
+margin-bottom: .625rem;
+font-family: "raleway";
+font-size: 1.25rem;
+font-weight: bold;
+}
+
+.ubi img {    
+width: 3.5625rem;
+height: 3.5625rem;
+}
+
+/*pagina2 */
+
+.generales {margin: 1.875rem;}
+.pagina2{
+font-family: "Handlee";
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 2.0025rem;
+text-align: center;
+padding: 1.875rem;
+gap: 1.875rem;
+}
+
+.pagina2 h1{ font-size: 3.125rem;
+font-weight: 300;
+}
+
+.infogeneral h2{
+font-family: "handlee";
+padding: .3125rem;
+font-size: 1.875rem;
+gap: .3125rem;
+}
+
+.infogeneral p {
+padding:.625rem;
+font-family: "raleway";
+}
+.infogeneral2 h2{
+font-family: "handlee";
+padding: .9375rem;
+}
+
+.infogeneral2 p {
+padding:.625rem;
+font-family: "raleway";
+}
+
+.infogeneral3 h2 {
+font-family: "handlee";
+padding: .9375rem;
+}
+
+.infogeneral3 p {
+padding:.625rem;
+font-family: "raleway";
+}
+
+.sanacion{
+background-image: url(https://plus.unsplash.com/premium_photo-1689693057941-43f6915ca96c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwxMTN8fFJFSUtJfGVufDB8fHx8MTcxODA3MDUyMXww&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450);
+background-size: cover;
+background-position: center;
+width: 80%;
+margin: auto;
+border-radius: 1.25rem;
+padding: 2.5rem;
+}
+
+.sanacion h2{
+font-size: 1.875rem;
+padding:.3125rem;
+text-align: left;
+}
+
+.sanacion h3{
+font-size: 1.5625rem;
+padding:.3125rem;
+font-weight: 500;
+text-align: left;
+}
+
+.sanacion p { 
+font-family: "raleway";
+font-size:.9375rem;
+padding:.3125rem;
+text-align: left;
+font-weight: 500;
+}
+
+.reikiusui {
+font-family: "ralawey";
+font-size: 3.125rem;
+font-weight: bold;
+}
+
+.usui1{
+font-family: "ralawey";
+padding: .3125rem;
+font-size: 1.25rem;
+}
+
+.usui2{
+font-family: "ralawey";
+font-size: 1.25rem;
+padding: .3125rem;
+}
+
+.usui3{
+font-family: "ralawey";
+font-size: 1.25rem;
+padding: .3125rem;
+}
+
+.usui4 {
+font-family: "ralawey";
+font-size: 1.25rem;
+padding: .3125rem;
+}
+
+/**pagina3-----CURSOS**/
+
+.pagina3 h1{
+font-family:"Handlee";
+font-size: 4rem;
+font-weight: 500;
+line-height: 5.34rem;
+text-align: center;
+}
+
+.pagina3 h2{
+font-family:"raleway";
+font-size: 1.25rem;
+font-weight: bold;
+line-height: 2.67rem;
+text-align: center;
+}
+
+.pagina3 p {
+font-family:"raleway";
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 2.67rem;
+text-align: center;
+}
+
+.grid1 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 3.125rem;
+margin-top:1.25rem;
+padding: 6.25rem;
+}
+
+.grid1 section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.grid1 section img {
+width: 18.75rem;
+border-radius: 1.25rem;
+}
+
+.grid1 section p {
+padding-top: .625rem;
+width: 18.75rem;
+background-color:#D2B295D4;;
+font-family: "Handlee";
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.6687rem;
+text-align: center;
+border-radius: 1.25rem;
+height: auto;
+border: 2px solid black;
+margin-bottom: .625rem;
+}
+
+/**pagina4--SESIONES--**/
+
+.pagina4 h1 {
+font-family:"handlee" ;
+text-align: center;
+font-weight:400;
+}
+
+.fotopag4  {
+display: flex;
+padding-left: 12.5rem;
+padding-right: 12.5rem;
+}
+
+.fotopag4 img{
+flex-basis: 40%;
+width:21.875rem;
+height:21.875rem;
+}
+
+.fotopag4 p{
+font-family: "handlee";
+flex-basis: 60%;    
+border-radius: 1.25rem;
+padding: 2.5rem;
+font-weight: 400;
+text-align:left;
+margin-left: 0rem;
+}
+
+.grid4{
+display: grid;
+grid-template-columns: 50% 10% 40%;
+gap: .625rem;
+grid-template-rows: 65% 35%;
+}
+
+.infocurso {
+grid-column-start: 1; 
+grid-column-end: 3;
+grid-row-start:1 ;
+grid-row-end:2 ;
+padding:1.25rem;
+font-family: "handlee";
+text-align:left ;
+background-color:#D2B295 ;
+width: 31.25rem;
+height: 15.625rem;
+margin:1.875rem;
+margin-bottom: 1.875rem;
+border-radius: 1.25rem;
+border: .625rem solid #D8F6C0;
+font-weight: 400;
+font-size:.9375rem;
+}
+
+.infocurso h2 {
+text-align: left;
+font-weight: 500;
+padding: .9375rem;
+}
+
+.precios {
+padding:10px;
+text-align:left ;
+width: 31.25rem;
+height: 18.75rem;
+margin:.625rem;
+font-weight: 400;
+}
+
+.precios h2 { 
+font-family: "ralaway";
+height: 1.875rem;
+font-size: 1.875rem;
+}
+
+.precios p { 
+font-size:1.25rem; 
+font-weight: bold;
+padding: .625rem;
+text-decoration:line-through;
+font-weight: 400;
+}
+
+.precios h3 {
+font-size:1.5625rem;
+}
+
+.precios h4 {
+padding:.3125rem;
+font-size:1.25rem;
+}
+
+.precios ul li {
+list-style: none;
+padding: .3125rem;
+font-weight:400;
+}
+
+/**pagina5** --Contactos--*/
+
+.pagina5 h1 {
+font-family:"handlee" ;
+font-size: 4rem;
+font-weight: 500;
+line-height: 5.34rem;
+text-align: center;
+font-weight:bold;
+}
+
+.pagina5 h2{
+font-family: "handlee";
+font-size:2.1875rem;
+}
+
+.datosubi {
+width: auto;
+display: flex;
+flex-direction: column;
+padding:1.25rem;}
+
+.datostel {
+display: flex;
+flex-direction: column;
+padding:1.25rem;
+}
+
+.mapa {
+width: 25rem;
+width: 25rem;
+margin-left: 3.125rem;
+margin-right:3.125rem ;
+}
+
+.mediospagos {
+font-family: "handlee";
+font-size:2.1875rem;
+padding: 1.875rem;
+}
+
+.tarjetas h3{
+font-family: "handlee";
+font-size:1.5625rem;
+padding: .625rem;
+}
+
+.tarjetas img{width: 3.125rem;
+height: 3.125rem;}
+
+.efectivo h3 {
+font-family: "handlee";
+font-size:1.5625rem;
+padding: .625rem;
+}
+
+.efectivo img {
+width: 3.125rem;
+height: 3.125rem;
+}
+
+
+
+/* responsive */
+@media (max-width:1094px){
+.Navbar{background-color:lightgreen;
+font-size: .625rem;
+display: flex;
+flex-direction: column;}
+
+.principal{display: flex;
+flex-direction: column;}
+
+.principal p {
+    font-size: .75rem;}
+
+.holistica {
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1.25rem;}
+
+.holista h2 {
+    font-family: "raleway";
+text-align: center;
+}
+
+.holistica ul li {
+font-size:1.25rem;
+}
+
+footer {display: flex;
+flex-direction: row;
+background-color:beige;
+width: 100%;
+height: 100%;
+font-size:.125rem;
+padding:0rem;
+margin: 0rem;
+flex-wrap: wrap}
+
+.logo img{
+width:6.25rem;
+display: flex;
+flex-direction:column;
+padding: 0rem;
+margin: 0rem;
+}
+.footer1 ul li{
+gap: .125rem;
+padding-left: .125rem;
+font-size: .125rem;}
+
+.domi h2 {margin-bottom: 0rem;
+font-size:.9375rem;}
+
+.domi p {margin-bottom: 0rem;
+font-size:.75rem;}
+
+
+.redes h2{margin-bottom: 0rem;
+font-size:.9375rem;}
+
+.redes img{gap: 0rem;
+
+width: 1.25rem;}
+
+
+.ubi h2 {margin-bottom: 0rem;
+font-size:.9375rem;}
+
+
+.ubi img {margin-right: 0rem;
+width: .9375rem;}
+
+/* responsive pagina 2-estilos */
+.pagina2 h1 {font-size: 1.875rem;}
+
+.infogeneral h2{font-size:1.5625rem ;}
+.infogeneral p {font-size: 1.25rem;}
+.infogeneral2 h2{ font-size: 1.5625rem;}
+.infogeneral2 p {font-size:1.25rem;}
+.infogeneral3 h2 {font-size: 1.5625rem;}
+.infogeneral3 p {font-size: 1.25rem;}
+.sanacion h2 {font-size: 1.875rem;}
+.sanacion h3 {font-size: 1.5625rem;
+font-family: "raleway";}
+.sanacion p {font-size: 1.25rem;
+font-family: "raleway";}
+}
+
